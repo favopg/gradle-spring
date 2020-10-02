@@ -4,12 +4,25 @@
 <meta charset="UTF-8">
 <title>掲示板</title>
 <link th:href="@{webjars/bootstrap/4.5.2/css/bootstrap.min.css}" rel="stylesheet"/>
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <script th:href="@{webjars/jquery/3.5.1/js/jquery.min.js}"></script>
     <script th:href="@{webjars/bootstrap/4.5.2/js/bootstrap.min.js}"></script>
 </head>
 <body>
-	<h1>新しいプロダクトを開発するよ</h1>
-	<button class="btn btn-primary">テスト</button>
+	<!-- ヘッダーナビゲーション  -->
+	<nav class="navbar navbar-light justify-content-center" style="background-color: #e3f2fd;">
+		<!--  検索アイコン -->
+	  	<a href="#"  class="pl-2"><i class="fas fa-search"></i></a>
+		<!-- 編集アイコン  -->
+  		<a href="#"  class="pl-2"><i class="far fa-edit"></i></a>
+  		<a href="#" >掲示板</a>
+	</nav>
+	<!-- snsのボタン領域  -->
+	<div class="text-center mt-2">
+		<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">ツイートする</a>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+
 
 </body>
 </html>
